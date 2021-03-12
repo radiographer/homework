@@ -1,0 +1,13 @@
+div {
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#div1 {
+  margin: 35px;
+  border: 5px blue solid;
+  padding: 45px;
+  word-wrap: break-word;
+}
