@@ -1,0 +1,68 @@
+body,
+html {
+  background-color: white;
+
+  font-family: system-ui;
+
+  margin: 0px;
+}
+
+.header {
+  font-size: 20px;
+
+  color: darksalmon;
+
+  padding-top: 50px;
+
+  padding-left: 50px;
+
+  height: 350px;
+
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
+}
+
+.navi {
+  background-color: darksalmon;
+
+  color: white;
+
+  width: 100%;
+
+  padding-top: 20px;
+
+  padding-bottom: 8px;
+
+  padding-left: 5px;
+
+  display: inline-block;
+
+  margin: -4px;
+}
+
+.navi a {
+  color: white;
+
+  text-decoration: none;
+
+  padding-left: 10px;
+}
+
+.left-side {
+  float: left;
+}
+
+.right-side {
+  float: right;
+
+  padding-right: 80px;
+}
+
+#mojastrona:hover {
+  color: lightgray;
+}
+
+.main {
+  display: block;
+
+  text-align: center;
+}
