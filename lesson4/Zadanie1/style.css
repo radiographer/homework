@@ -37,6 +37,8 @@ html {
   display: inline-block;
 
   margin: -4px;
+
+  border-top: white 10px solid;
 }
 
 .navi a {
@@ -71,10 +73,13 @@ html {
 
 h3 {
   color: lightslategray;
+  font-weight: 375;
 }
 
 .boxes {
   display: flex;
+  font-family: "Times New Roman", Times;
+  font-stretch: extra-condensed;
 }
 .box1,
 .box2,
@@ -86,6 +91,8 @@ h3 {
   padding: 0px 10px 0px 10px;
 
   margin: 10px 10px 10px 10px;
+
+  outline: lightslategrey;
 }
 
 .main,
@@ -97,10 +104,17 @@ h3 {
   background-color: darksalmon;
 
   width: 100%;
+  display: flex;
+}
 
-  padding: 0px;
+.footer1 {
+  padding: 10px 150px 200px 15px;
+}
 
-  display: inline-flex;
+.footer2 {
+  padding: 200px 75px 0px 75px;
+}
 
-  margin: -4px;
+.footer3 {
+  padding: 10px 50px 200px 150px;
 }
