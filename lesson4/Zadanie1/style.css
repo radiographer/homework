@@ -62,6 +62,7 @@ h1 {
 
 #mojastrona:hover {
   color: lightgray;
+  opacity: 0, 9;
 }
 
 .main {
@@ -102,25 +103,56 @@ h3 {
   outline: lightslategrey;
 }
 
+.box1:hover {
+  transform: scale(1.1);
+}
+
+.box2:hover {
+  transform: scale(1.1);
+}
+
+.box3:hover {
+  transform: scale(1.1);
+}
+
 .boxes {
   padding: 20px 40px;
 }
 
 .footer {
-  background-color: darksalmon;
-
-  width: 100%;
   display: flex;
+  background-color: darksalmon;
 }
-
 .footer1 {
-  padding: 10px 150px 200px 15px;
+  width: 100%;
+
+  padding: 0px 10px 0px 10px;
+
+  margin: 10px 10px 10px 10px;
 }
 
 .footer2 {
-  padding: 200px 75px 0px 75px;
+  width: 100%;
+  padding: 145px 9px 0px 121px;
+  margin: 10px 10px 10px 10px;
 }
 
 .footer3 {
-  padding: 10px 50px 200px 150px;
+  width: 100%;
+
+  padding: 0px 10px 0px 10px;
+
+  margin: 10px 10px 10px 10px;
+}
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 12px;
+  height: 35px;
+  width: 90px;
+}
+
+button:hover {
+  opacity: 0.9;
 }
