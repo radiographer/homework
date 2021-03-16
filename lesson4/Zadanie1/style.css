@@ -7,18 +7,25 @@ html {
   margin: 0px;
 }
 
-.header {
+.DA {
   font-size: 20px;
 
   color: darksalmon;
 
+  /* padding-top: 50px;
+
+  padding-left: 50px; */
+
+  height: 350px;
+  width: 100%;
+
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
+}
+
+h1 {
   padding-top: 50px;
 
   padding-left: 50px;
-
-  height: 350px;
-
-  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
 }
 
 .navi {
@@ -32,11 +39,7 @@ html {
 
   padding-bottom: 8px;
 
-  padding-left: 5px;
-
   display: inline-block;
-
-  margin: -4px;
 
   border-top: white 10px solid;
 }
@@ -69,6 +72,10 @@ html {
   text-align: center;
 
   margin: 0px;
+
+  width: 100%;
+
+  display: inline-block;
 }
 
 h3 {
@@ -95,7 +102,6 @@ h3 {
   outline: lightslategrey;
 }
 
-.main,
 .boxes {
   padding: 20px 40px;
 }
