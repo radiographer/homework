@@ -70,18 +70,15 @@ h3 {
   font-stretch: extra-condensed;
   padding: 20px 40px;
 }
-.box1,
-.box2,
-.box3 {
+
+.box {
   background-color: linen;
   width: 100%;
   padding: 0px 10px 0px 10px;
   margin: 10px 10px 10px 10px;
 }
 
-.box1:hover,
-.box2:hover,
-.box3:hover {
+.box:hover {
   transform: scale(1.1);
   outline: 1px solid lightslategrey;
   outline-style: inset;
@@ -93,20 +90,20 @@ h3 {
   display: flex;
   background-color: darksalmon;
 }
-.footer1 {
-  width: 100%;
+.left {
+  width: 33%;
   padding: 0px 10px 0px 10px;
   margin: 10px 10px 10px 10px;
 }
 
-.footer2 {
-  width: 100%;
+.center {
+  width: 33%;
   padding: 145px 9px 0px 200px;
   margin: 10px 10px 10px 10px;
 }
 
-.footer3 {
-  width: 100%;
+.right {
+  width: 33%;
   padding: 0px 10px 0px 10px;
   margin: 10px 10px 10px 10px;
 }
