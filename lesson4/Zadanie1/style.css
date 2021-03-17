@@ -1,52 +1,37 @@
 body,
 html {
   background-color: white;
-
   font-family: system-ui;
-
   margin: 0px;
 }
 
 .DA {
   font-size: 20px;
-
   color: darksalmon;
-
   height: 395px;
   width: 100%;
-
   background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
 }
 
 h1 {
   padding-top: 50px;
-
   padding-left: 50px;
-
   margin-top: -4px;
 }
 
 .navi {
   background-color: darksalmon;
-
   color: white;
-
   width: 100%;
-
   padding-top: 20px;
-
   padding-bottom: 8px;
-
   display: inline-block;
-
   border-top: white 5px solid;
 }
 
 .navi a {
   color: white;
-
   text-decoration: none;
-
   padding-left: 10px;
 }
 
@@ -67,15 +52,10 @@ h1 {
 
 .main {
   display: block;
-
   text-align: center;
-
   margin: 0px;
-
   width: 100%;
-
   display: inline-block;
-
   padding: 30px 0px 30px 0px;
 }
 
@@ -88,35 +68,25 @@ h3 {
   display: flex;
   font-family: "Times New Roman", Times;
   font-stretch: extra-condensed;
+  padding: 20px 40px;
 }
 .box1,
 .box2,
 .box3 {
   background-color: linen;
-
   width: 100%;
-
   padding: 0px 10px 0px 10px;
-
   margin: 10px 10px 10px 10px;
-
-  outline: lightslategrey;
 }
 
-.box1:hover {
-  transform: scale(1.1);
-}
-
-.box2:hover {
-  transform: scale(1.1);
-}
-
+.box1:hover,
+.box2:hover,
 .box3:hover {
   transform: scale(1.1);
-}
-
-.boxes {
-  padding: 20px 40px;
+  outline: 1px solid lightslategrey;
+  outline-style: inset;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .footer {
@@ -125,23 +95,19 @@ h3 {
 }
 .footer1 {
   width: 100%;
-
   padding: 0px 10px 0px 10px;
-
   margin: 10px 10px 10px 10px;
 }
 
 .footer2 {
   width: 100%;
-  padding: 145px 9px 0px 121px;
+  padding: 145px 9px 0px 200px;
   margin: 10px 10px 10px 10px;
 }
 
 .footer3 {
   width: 100%;
-
   padding: 0px 10px 0px 10px;
-
   margin: 10px 10px 10px 10px;
 }
 button {
