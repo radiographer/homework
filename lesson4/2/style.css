@@ -1,0 +1,26 @@
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#div1 {
+  background-color: chartreuse;
+  padding: 50px;
+}
+
+#div2 {
+  background-color: cornflowerblue;
+}
+
+#div3 {
+  background-color: crimson;
+}
+
+#div4 {
+  background-color: darkkhaki;
+}
+
+#div5 {
+  background-color: darkorange;
+}
