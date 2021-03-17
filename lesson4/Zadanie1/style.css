@@ -5,7 +5,7 @@ html {
   margin: 0px;
 }
 
-.DA {
+. {
   font-size: 20px;
   color: darksalmon;
   height: 395px;
@@ -45,7 +45,7 @@ h1 {
   padding-right: 80px;
 }
 
-#mypage:hover {
+#myPage:hover {
   color: lightgray;
   opacity: 0, 9;
 }
