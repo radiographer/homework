@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+
+  width: 100vw;
+}
+
+.item {
+  flex: 0;
+  font-size: 20px;
+  padding: 20px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blueviolet;
+}
+.item:nth-of-type(4n) {
+  background-color: coral;
+}
+
+.item:nth-of-type(4n + 1) {
+  background-color: greenyellow;
+}
+
+.item:nth-of-type(4n + 2) {
+  background-color: blue;
+}
+
+.item:nth-of-type(4n + 3) {
+  background-color: aquamarine;
+}
