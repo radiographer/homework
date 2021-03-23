@@ -4,24 +4,17 @@ body {
   width: 100vw;
 }
 
-.containerUp {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: brown;
-
-  width: 100vw;
-  height: 46vh;
-  align-items: center;
-}
-
+.containerUp,
 .containerDown {
   display: flex;
   justify-content: space-evenly;
   background-color: brown;
+
   width: 100vw;
   height: 46vh;
   align-items: center;
 }
+
 .container {
   background-color: navajowhite;
   height: 39vh;
