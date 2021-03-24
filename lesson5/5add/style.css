@@ -2,6 +2,10 @@ body {
   margin: 10px 0px 10px 0px;
   background-color: navajowhite;
   width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .containerUp {
@@ -10,8 +14,8 @@ body {
   background-color: brown;
 
   width: 100vw;
-  height: 44vh;
-  align-items: flex-end;
+  height: 46vh;
+  align-items: center;
 }
 
 .containerDown {
@@ -20,29 +24,20 @@ body {
   background-color: brown;
 
   width: 100vw;
-  height: 50vh;
+  height: 46vh;
   align-items: center;
+}
+
+.containerLight {
+  background-color: navajowhite;
+  height: 30%;
+  width: 80%;
 }
 
 .container {
   background-color: navajowhite;
-  height: 39vh;
-  width: 30vw;
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
-.item1 {
+.item {
   background-color: brown;
-  height: 7vh;
-  width: 25vw;
-}
-.item2 {
-  height: 5vh;
-  background-color: brown;
-  height: 23vh;
-  width: 25vw;
 }
