@@ -2,42 +2,89 @@ body {
   margin: 10px 0px 10px 0px;
   background-color: navajowhite;
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .containerUp {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: brown;
 
   width: 100vw;
-  height: 46vh;
-  align-items: center;
+  height: 44vh;
+  align-items: flex-end;
 }
 
 .containerDown {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+
+  justify-content: center;
   background-color: brown;
 
   width: 100vw;
-  height: 46vh;
+  height: 50vh;
   align-items: center;
-}
-
-.containerLight {
-  background-color: navajowhite;
-  height: 30%;
-  width: 80%;
 }
 
 .container {
   background-color: navajowhite;
+  height: 39vh;
+  width: 48vw;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+.container2 {
+  background-color: navajowhite;
+  height: 20vh;
+  width: 96vw;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container3 {
+  background-color: navajowhite;
+  height: 20vh;
+  width: 96vw;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item1,
+.item2,
+.item3 {
+  background-color: brown;
+  height: 10vh;
+  width: 44vw;
+}
 .item {
   background-color: brown;
+  height: 35vh;
+  width: 43vw;
+}
+
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10 {
+  background-color: brown;
+  height: 15vh;
+  width: 9vw;
+}
+
+.item4 {
+  background-color: brown;
+  height: 16vh;
+  width: 89vw;
 }
