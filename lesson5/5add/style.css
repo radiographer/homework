@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 
-.box {
+.box1 {
   background-color: navajowhite;
   display: flex;
   justify-content: space-evenly;
@@ -24,15 +24,24 @@ body {
   width: 95vw;
   flex-wrap: wrap;
 }
-
+.box2 {
+  background-color: navajowhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 35vh;
+  width: 95vw;
+  flex-wrap: wrap;
+  align-self: center;
+}
 .item-box-top-left {
   background-color: brown;
-  height: 30vh;
-  width: 60vw;
+  height: 31vh;
+  width: 55vw;
 }
 .container-item-box-top-right {
   background-color: navajowhite;
-  height: 30vh;
+  height: 31vh;
   width: 30vw;
   display: flex;
   justify-content: space-between;
@@ -41,25 +50,28 @@ body {
 
 .item-box-top-right {
   background-color: brown;
-  height: 8vh;
-  width: 30vw;
+  height: 9vh;
+  width: 32vw;
 }
 
 .item-box-down-up {
   background-color: brown;
   height: 15vh;
   width: 85vw;
+  display: flex;
 }
 
 .container-item-box-down-down {
   background-color: navajowhite;
-  height: 15vh;
+  height: 16vh;
   width: 85vw;
   display: flex;
   justify-content: space-between;
+  align-content: start;
+  align-self: center;
 }
 .item-box-down {
   background-color: brown;
-  height: 10vh;
-  width: 8vw;
+  height: 14vh;
+  width: 13vw;
 }
