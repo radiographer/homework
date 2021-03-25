@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Druga strona</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .container {
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: blueviolet;
+
+        width: 80vw;
+        height: 50vh;
+
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        /* align-items: flex-end; */
+        /* align-content: center; */
+      }
+
+      .item {
+        flex: 1;
+        font-size: 30px;
+        padding: 40px;
+      }
+
+      .item:nth-of-type(6) {
+        flex-grow: 2;
+        order: 1;
+      }
+
+      .item:nth-of-type(7) {
+        flex-grow: 3;
+        order: 2;
+      }
+
+      .item:nth-of-type(4n) {
+        background-color: coral;
+      }
+
+      .item:nth-of-type(4n + 1) {
+        background-color: greenyellow;
+      }
+
+      .item:nth-of-type(4n + 2) {
+        background-color: blue;
+      }
+
+      .item:nth-of-type(4n + 3) {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </body>
+</html>

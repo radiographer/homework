@@ -1,90 +1,65 @@
 body {
-  margin: 10px 0px 10px 0px;
   background-color: navajowhite;
+  margin: 5vh 0px 5vh 0px;
   width: 100vw;
-}
-
-.containerUp {
-  display: flex;
-  justify-content: center;
-  background-color: brown;
-
-  width: 100vw;
-  height: 44vh;
-  align-items: flex-end;
-}
-
-.containerDown {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  background-color: brown;
-
-  width: 100vw;
-  height: 50vh;
-  align-items: center;
 }
 
 .container {
-  background-color: navajowhite;
-  height: 39vh;
-  width: 48vw;
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.container2 {
-  background-color: navajowhite;
-  height: 20vh;
-  width: 96vw;
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.container3 {
-  background-color: navajowhite;
-  height: 20vh;
-  width: 96vw;
-  display: flex;
-
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.item1,
-.item2,
-.item3 {
   background-color: brown;
-  height: 10vh;
-  width: 44vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-.item {
-  background-color: brown;
+
+.box {
+  background-color: navajowhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   height: 35vh;
-  width: 43vw;
+  width: 95vw;
+  flex-wrap: wrap;
 }
 
-.item5,
-.item6,
-.item7,
-.item8,
-.item9,
-.item10 {
+.item-box-top-left {
+  background-color: brown;
+  height: 30vh;
+  width: 60vw;
+}
+.container-item-box-top-right {
+  background-color: navajowhite;
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.item-box-top-right {
+  background-color: brown;
+  height: 8vh;
+  width: 30vw;
+}
+
+.item-box-down-up {
   background-color: brown;
   height: 15vh;
-  width: 9vw;
+  width: 85vw;
 }
 
-.item4 {
+.container-item-box-down-down {
+  background-color: navajowhite;
+  height: 15vh;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+}
+.item-box-down {
   background-color: brown;
-  height: 16vh;
-  width: 89vw;
+  height: 10vh;
+  width: 8vw;
 }
