@@ -1,0 +1,17 @@
+.container {
+  width: 100vw;
+  height: 500px;
+  background-color: black;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  position: static;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+}
