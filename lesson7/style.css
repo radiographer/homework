@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: system-ui;
+  padding-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  width: 60vw;
+  height: auto;
+  min-height: 500px;
+  border: 1px solid black;
+}
+
+.form-wrapper {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.image {
+  width: 100%;
+  background-image: url(./images/gym.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.social-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid violet;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.divider {
+}
+
+.divider-line {
+}
