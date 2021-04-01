@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid violet;
+  border: 1px solid #413fb5;
   padding: 5px 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -93,8 +93,8 @@ button {
   padding: 10px 30px;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid violet;
-  background-color: violet;
+  border: 1px solid #413fb5;
+  background-color: #413fb5;
   margin-top: 20px;
 }
 
