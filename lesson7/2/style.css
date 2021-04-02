@@ -3,39 +3,71 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-family: sustem-ui;
-  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif; /*system-ui;*/
+  margin: 0px auto;
+}
+
+.logo {
+  margin: 0px;
+  padding: 40px 180px;
 }
 
 .wrapper {
   display: flex;
-  width: 60vw;
-  height: auto;
-  min-height: 500px;
+  min-width: 612px;
+  min-height: 510px;
+
   border: 1px solid black;
+  border-radius: 5px;
+}
+.register-trainer {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  margin-top: -10px;
 }
 
 .form-wrapper {
-  padding: 10px 20px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 25px;
+
+  width: 50%;
+}
+
+h2 {
+  font-size: 11px;
 }
 
 .image {
-  width: 100%;
+  width: 50%;
   background-size: cover;
   background-position: center;
   background-image: url(./images/gym.jpg);
 }
 
 .social-button {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fb,
+.insta {
+  width: 260px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid #413fb5;
-  padding: 5px 10px;
+  padding: 5px 5px;
   box-sizing: border-box;
   border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.fb {
   margin-bottom: 10px;
 }
 
@@ -43,22 +75,33 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 260px;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 
 h4 {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .divider-line {
   height: 1px;
   background-color: black;
-  width: 25%;
+  width: 31%;
 }
 
 .row {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+
+  justify-content: flex-start;
+}
+
+.first-name {
+  width: 125px;
+}
+
+.last-name {
+  width: 125px;
 }
 
 .row input:first-of-type {
@@ -66,18 +109,20 @@ h4 {
 }
 input {
   margin-bottom: 15px;
-  width: 100%;
+  width: 260px;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 7px;
-  border: 1px solid darkgray;
+  border: 1px solid lightgrey;
+  font-size: 13px;
 }
 
 .consent {
   display: flex;
-  font-size: 10px;
+  font-size: 9px;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 8px;
 }
 
 .consent div {
@@ -91,13 +136,28 @@ input[type="checkbox"] {
 
 button {
   padding: 10px 30px;
-  width: 100%;
+  width: 260px;
   border-radius: 5px;
   border: 1px solid #413fb5;
   background-color: #413fb5;
   margin-top: 20px;
+  font-size: 11px;
+  color: white;
 }
 
 .footer {
+  display: flex;
   margin-top: 20px;
+  font-size: 9px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #413fb5;
+}
+
+.link {
+  border-bottom: 2px solid #413fb5;
+  margin-left: 2px;
 }
