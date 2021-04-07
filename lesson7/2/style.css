@@ -12,6 +12,9 @@ body {
   background-size: cover;
   background-position: center;
   background-image: url(./images/gym.jpg);
+  overflow: hidden;
+  border-radius: 0px 5px 5px 0px; /*tylko to mi pomogło 
+  wstawić zaokrąglenie rogów przy obrazku*/
 }
 
 .wrapper {
@@ -31,8 +34,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 25px;
+  box-sizing: border-box;
   width: 50%;
+  padding: 0px 20px 0px 20px;
 }
 .register-trainer {
   font-size: 14px;
@@ -70,8 +74,8 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 260px;
-  margin-top: -30px;
-  margin-bottom: -30px;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 h4 {
@@ -114,6 +118,7 @@ input {
   align-items: center;
   margin-left: 8px;
   font-stretch: expanded;
+  font-weight: 600;
 }
 
 .consent div {
@@ -133,6 +138,7 @@ button {
   background-color: #413fb5;
   margin-top: 20px;
   font-size: 11px;
+  font-weight: 600;
   color: white;
 }
 
@@ -140,6 +146,7 @@ button {
   display: flex;
   margin-top: 20px;
   font-size: 9px;
+  font-weight: 600;
 }
 
 a {
