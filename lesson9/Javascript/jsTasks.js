@@ -62,42 +62,52 @@ console.log(number);
 
 // 7
 function add() {
-  console.log(2 + 2);
+  return 2 + 2;
 }
 
 function string() {
-  console.log("Hello World!");
+  return "Hello World!";
 }
 
-function bolean() {
-  console.log(true);
+function boolean() {
+  return true;
 }
 
 function modulo(a, b) {
-  console.log(a % b);
+  return a % b;
 }
 modulo(6, 4);
 
+function power(a, b) {
+  return a ^ b;
+}
+power(3, 4);
+
+function concatString(a, b) {
+  return a + b;
+}
+concatString("Hello, ", "how are you");
+
 function multiple(a, b) {
-  console.log(a * b);
+  return a * b;
 }
 multiple(5, 60);
 multiple(3, 3600);
 
 function calc(a, b, c) {
-  console.log((a * b) / c);
+  return (a * b) / c;
 }
 calc(10, 9, 2);
 
 function minus(a, b) {
-  console.log(a - b);
+  return a - b;
 }
 minus(10, 200);
 
 // 8
 let arr = [1, 2, 3];
 
-let arr = ["Skoda", "Audi", "BMW"];
+let arr = ["Skoda", "Audi", "BMW", "Honda", "Volkswagen"];
 
 let arr = [true, false, true];
 
@@ -110,7 +120,7 @@ let arr = [1, 2, 3];
 console.log(arr.length);
 
 let arr = [];
-arr.push(2);
+arr.push(Math.random());
 console.log(arr);
 
 // 9
@@ -132,3 +142,62 @@ console.log(personDetails.age);
 console.log(personDetails);
 
 // 10
+
+function add(a, b) {
+  return a + b;
+}
+
+function logString(a) {
+  console.log(a);
+}
+
+function boolean(a) {
+  return a;
+}
+
+function modulo(a, b) {
+  return a % b;
+}
+function power(a, b) {
+  return a ^ b;
+}
+
+function addStrings(a, b) {
+  return a + b;
+}
+
+function getSecondsFromMinutes(a) {
+  return a * 60;
+}
+
+function getSecondsFromHours(a) {
+  return a * 60 * 60;
+}
+
+function triangle(a, b) {
+  return a * b * 0.5;
+}
+
+function getDaysFromYear(a) {
+  return a * 365;
+}
+
+function selfPower(a) {
+  return a ^ a;
+}
+
+function sideTriangle(side1, side2) {
+  return side1 + side2 - 1;
+}
+
+function hello(a) {
+  return "Cześć, " + a + "!";
+}
+
+function age(a) {
+  return 2021 - a;
+}
+
+function score(a, b) {
+  return a * 2 + b * 3;
+}
