@@ -1,0 +1,82 @@
+Zadania Javascript(Zmienne i funkcje):
+
+1.  Stwórz zmienną:
+a) typu string o nazwie name i wartości 'Karol',
+b) typu number o nazwie age i wartości 40,
+c) typu boolean o nazwie isOpen i wartości true,
+d) typu string o nazwie stringBoolean o wartości true
+e) typu string o nazwie stringNumber o wartości 100
+
+2.  Zrób consol.log dla wartości:
+a) 'Michał'
+b) 'Hello Ania'
+c) 4
+d) false
+
+3.  Zrób consol.log dla każdej zmiennej z zadania pierwszego,
+
+4.  Napisz console.log, w którym wyświetlisz w konsoli:
+a) wynik dodawania 2 + 2,
+b) wynik dodania dwóch stringów 'Michał ' + 'Kowalski',
+c) wynik równania 2 + 2 * 2,
+
+5   Dodawanie dwóch cyfr(dowolnie wybranych) do zmiennej, później zrób consol.log tej zmiennej,
+aby wyświetliło się w następujący sposób: 'wynik', 4 <--- (4 to przykładowa wartość zmiennej)
+
+6.  Stwórz zmienną typu let i zmień jej wartość dwa razy, a następnie zrób consol.log ostatecznej
+wartości tej zmiennej,
+
+7.  Napisz funkcje, która:
+a) zwraca wynik dodawania 2 + 2 (bez parametrów)
+b) zwraca string 'Hello World!' (bez parametrów)
+c) zwraca wartość true (bez parametrów)
+d) zwraca reszte z dzielenie 6 przez 4,
+e) zwraca wynik równania 3 do potęgi 4tej,
+f) zwraca 'Hello, ' + 'how are you?'
+g) zwraca wynik mnożenia 5 przez 60
+h) zwraca wynik mnożenia 3 przez 3600,
+i) zwraca wynik działania 10 * 9 / 2
+j) zwraca wynik odejmowania 10 od 200stu,
+
+8.  Stwórz tablicę:
+a) 3 elementową z cyframi od 1 do 3
+b) 5 elementową z markami aut,
+c) 3 elementową składającą się z wartości true, false i true
+d) pustą tablicę,
+e) składającą się z 5 dowolonych wartości z pomieszanymi typami,
+f) zrób console.loga w którym z powyższej tablicy wyświetlasz wartość która jest w drugiej
+kolejności od początku,
+g) *** Jaka właściwość i jak użyta słuzy do wyświetlenia długości tablicy? Stwórz własną tablicę
+z 3 elementami i wyświetl za pomocą consol.log jej długość,
+h) *** Czy wiesz jak stworzyć pustę tablicę ? dodać do niej losową wartość i wyświetlić za pomocą
+console.loga już zmienioną tablicę?
+
+9.  Stwórz obiekt:
+a) pusty obiekt,
+b) obiekt o nazwe person zawierający klucz name i jego wartość 'Iza',
+c) obiekt o nazwe personDetails zawierający dane o osobie jak name, lastName, age, drivingLicence
+gdzie ten ostatni powinien być booleanem, w zależności od tego czy osoba ma prawo jazdy czy nie
+d) z obiektu personDetails zrób consol.log samego wieku,
+e) zrób console.log całego obiektu,
+
+10. Napisz te same funkcje co wyżej ale dodając wartości jako argumenty podczas wywołania funkcji, czyli:
+a) dodającą dwie liczby,
+b) wyświetlającą podany podczas wywołania napis,
+c) zwracającą true lub false w zależności od podania tej wartości jako argument,
+d) zwracającą resztę z dzielenie dwóch liczb,
+e) zwracającą liczbę do braną do potęgi podanej jako drugi argument,
+f) zwracającej dwa złączone stringi podane w dwóch argumentach,
+g) taką która jako argument przyjmuje ilość minut i zamienia je na sekundy,
+h) taką która jako argument przyjmuje ilość godzin i zamienia je na sekundy,
+i) taką która liczy pole trójkatą czyli jako argumenty podajemy wysokość i szerokość trójkąta
+i w ciele funkcji korzystamy ze wzoru a * b * 0.5,
+j) która zamienia lata na dni(przyjmując, że rok ma 365dni)
+k) która liczbe podaną w argumencie bierze do potęgi tej samej co liczbą podana jako argument,
+l) która obliczy dłuższy bok trójkąta posługując się tym wzorem (side1 + side2) - 1
+Pamiętaj aby można było podmienić cyfry podczas wywołania na dowolne,
+m) która po wpisaniu imienia jak argument podczas wywołania, wyświetli przywitanie,
+czyli, np. hello('Iza') -> 'Cześć, Iza!'
+n) która poda nam wiek osoby na podstawie podanego roku urodzenia w argumencie
+podczas wywołania,
+o) która przyjmuje dwa parametry, pierwszy to liczba rzutów za 2 punkty, a drugi to liczba rzutów
+za trzy punkty i na podstawie podanych parametrów obliczy ilość punktów zdobytych przez gracza,
