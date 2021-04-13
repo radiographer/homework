@@ -42,3 +42,4 @@ const koszNaPranie = zrobPranie(
   "szorstkie"
 );
 console.log(koszNaPranie);
+//zrobione do 1:30 z live (bez kopii i referncji, typy proste i złożone)
