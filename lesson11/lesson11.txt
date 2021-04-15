@@ -1,0 +1,15 @@
+/ v1 Funkcja przyjmuje 2 parametry age(Number) i isDrunk(Boolean), 
+funkcja ma zwrócić wartość Boolean odpowiadając na pytanie czy barman może podać piwo
+// Jeżeli osoba ma > 18 lat i nie jest pijana to barman może podać piwo, natomiast jeżeli 
+osoba ma mniej niż 18 lat lub jest pijana to barman nie może podać piwa
+// isDrunk domyślnie true
+// canServeBeer(age, isDrunk)
+// canServe = canServeBeer()
+// true: "Proszę oto Twoje piwo", false: "Przykro mi, dzisiaj nie dostaniesz piwka"
+
+
+
+// v2, zamiast age i isDrunk, funkcja przyjmuje 1 parametr obiektu osoby, 
+obiekt ma w sobie wartości age, isDrunk (default value na true), name
+// zamiast Boolean zwracamy string Kasiu oto Twoje winko, Kasiu, przykro mi, dzisiaj nie ma winka
+// const string = canServeBeer(person)

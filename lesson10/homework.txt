@@ -1,0 +1,64 @@
+1. Napisz funkcje (typy proste):
+
+   a) zwracającą sumę trzech liczb podanych w parametrach funkcji,
+   b) zwracającą pole trójkąta ze wzoru podstawa * wysokość / 2, która zwróci
+     'Pole trójkąta to x(zmienna tu powinna być), czyli ma on x długości podstawy i x
+      wysokości'
+   c) zwracającą ile aktualnie ktoś ma lat prawo jazdy na podstawie dwóch argumentów,
+     wieku danej osoby i wieku w którym to prawo jazdy zdał,
+   d) zwracającą ile spalimy litrów paliwa jeśli jako jeden parametr podamy spalanie
+     na 100km, a jako drugi przejechaną trasę,
+   e) zwracającą stringa 'Ala ma 23 lata i 2 dzieci', gdzie imię, wiek i ilość dzieci
+     podajemy w parametrach funkcji,
+
+2. Napisz funkcje (typy złożone):
+
+   a) zwracającą przekazaną do parametru tablicę,
+   b) zwracającą drugą wartość przekazanej do funkcji tablicy 3 elementowej,
+   c) zwracającą stringa 'Przekazana tablica ma x elementów, a elementem nr 3 jest x'
+   d) dodaje elementy do stworzonej na zewnątrz funkcji pustej tablicy i zwraca już
+     zmienioną tablice z dodatkowym elementem,
+   e) zwracającą imię osoby przekazanej w obiekcie(powinien zawierać imię, nazwisko i wiek)
+      do funkcji,
+   f) zwracającą stringa 'imię(tu zmienna) i nazwisko(tu zmienna) ma x(tu zmienna) lat
+     i x(tu zmienna) cm wzrostu'
+   g) przyjmującą dwa parametry jeden do obiekt a drugi to wiek, i zwracającą zmieniony
+     wiek, czyli wiek który przekazujemy w parametry zamieniamy z wiekiem w obiekcie,
+
+3. Napisz funkcje (warunki if, else - typy proste):
+
+   a) która przyjmuje wiek osoby i informacje czy ma prawo jazdy, jeśli dana osoba
+     ma poniżej 18 lat to powinno wyświetlić, że 'Nie ma prawa jazdy'. Jak ma powyżej
+     18stu lat i nie ma prawka to też ma wyświetlić, ze 'Nie ma prawa jazdy'. A jak
+     ma powyżej 18stu lat i prawo jazdy to niech wyświetli, że "Możesz śmiało jeździć"
+   b) przyjmuje jako parametr string, jeśli string jest równy 'Kup', niech wyświetli
+     'Widzę, że zrobić zakupy', a jak string jest równy 'Sprzedaj' niech wyświetli
+     'Możesz tutaj swobodnie sprzedawać', a jeśli nie będzie ani tym ani tym to niech
+     pokaże 'Nie wybrałeś żadnej z dostępnych opcji - wpisz Kup lub Sprzedaj'
+   c) przyjmuje liczbę jak argument i zwraca string z informacja 'Liczba jest dodatnia',
+     'Liczba jest ujemna' lub 'Liczba jest równa 0'
+   d) przyjmującą liczbę jako argument i jeśli liczba jest podzielna przez 3 to niech
+     pokaże 'Fizz', jak podzielna jest przez 5 to 'Buzz', a jak przez 3 i 5 to 'FizzBuzz',
+   e) napisz funkcję, która wyświetla czy osoba może obejrzeć film dla osób 15+, funkcja
+     powinna przyjąć dwa argumenty, wiek danej osoby i to czy ma zgodę rodziców, jeśli
+     ma powyżej 15 lat to może oglądać, jak ma poniżej ale ma zgodę rodziców też może
+     oglądać, a jak ma poniżej i nie ma zgody to nie może, wyświetli odpowiednie komunikaty,
+   W tych funkcjach napisz warunki używając ternary operatora!!
+   f) zwracającą 'Tak' jeśli jak argument podamy true i 'Nie' jeśli podamy false,
+   g) zwracającą informację czy podana jako argument liczba jest parzysta czy nie,
+
+4. Napisz funkcje (warunki if, else - typy złożone):
+
+   a) która przyjmuje obiekt car(model, marka, rok produkcji, isCabrio) i jeśli rok
+     produkcji jest większy niż aktualny rok to informacja, ze auta jeszcze nie wyprodukowano,
+     jak będzie rok poniżej aktualnego to wyświetlamy w zdaniu ładnie informacje o
+     aucie + informacje czy jest Cabrio czy nie jest,
+   b) która przyjmuje tablicę jako parametr z dowolna liczbą elementów, jeśli tablica
+     jest pusta to zwracamy string pusta tablica, a jak nie to mamy zwrócić stringa
+     'tablica ma x elementów',
+   c) przyjmuje dwa parametry, oba sa obiektami, jeden to osoba (imię, nazwisko, wiek, czyLubieCzytaćKsiazki, maTV)
+     a drugi to książka (tytuł, rodzaj, ilość stron) i funkcja ta powinna zwrócić stringa
+     odpowiednio, jeśli osoba lubi czytać książkę to niech jej zaproponuje książkę z
+     obiektu: 'Cześć x(imie), polecam Ci przeczytać x(nazwa książki) książkę, ma tylko
+     (strony książki) stron', a jeśli nie lubi czytać, ale ma tv to niech zwróci
+     żeby 'Poszedł oglądać tv' lub po prostu jak nie ma 'Nie wiem co Ci zaproponować'
