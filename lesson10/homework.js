@@ -72,7 +72,7 @@ function getSecondElementFromArray(a) {
 // .np.:
 console.log());
 // lub
-var wynik = getSecondElementFromArray(["abc", "cde", "fgh"]);
+let wynik = getSecondElementFromArray(["abc", "cde", "fgh"]);
 console.log(wynik);
 
 // c) zwracającą stringa 'Przekazana tablica ma x elementów, a elementem nr 3 jest x'
@@ -92,32 +92,32 @@ console.log(getArrayDesc([1, 2, 3, 4]));
 
 emptyArray = [];
 
-function addElement() {
-  emptyArray.push("last");
+function addElement(element) {
+  emptyArray.push(element);
 
   return emptyArray;
 }
 
-const result = addElement();
+const result = addElement('last');
 
 console.log(result);
 
 // e) zwracającą imię osoby przekazanej w obiekcie(powinien zawierać imię, nazwisko i wiek)
 // do funkcji,
 
-function firstName() {
-  person = { name: "Lukas", surname: "Walczak", age: "39" };
+person = { name: "Lukas", surname: "Walczak", age: "39" };
+function firstName(object) {
   return person.name;
 }
-console.log(firstName());
+console.log(firstName(person));
 
 // lub
+person = { name: "Lukas", surname: "Walczak", age: "39" };
+let name2 = function (object) {
 
-var name2 = function () {
-  person = { name: "Lukas", surname: "Walczak", age: "39" };
   return person.name;
 };
-console.log(name2());
+console.log(name2(person));
 
 
 // f) zwracającą stringa 'imię(tu zmienna) i nazwisko(tu zmienna) ma x(tu zmienna) lat
@@ -233,15 +233,13 @@ console.log(divThreeAndFive(15));
 // oglądać, a jak ma poniżej i nie ma zgody to nie może, wyświetli odpowiednie komunikaty,
 
 function moviePermission(age, parentalConsent) {
-  if (age > 15 && parentalConsent) {
+  if (age > 15 || parentalConsent) {
     return "Możesz oglądać film.";
-  }
-  if (age < 15 && parentalConsent) {
-    return "Możesz oglądać film.";
-  } else age < 15 && parentalConsent;
+  
+  } else {
   return "Nie możesz oglądać filmu.";
 }
-
+}
 // np.: 
 console.log(moviePermission(14, false));
 
