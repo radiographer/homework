@@ -1,0 +1,20 @@
+// 1.  Napisz funkcję na 2 sposoby, czyli przekazując parametry w formie listy i obiektu, Funkcje powinny dostawać podczas wywołania obiekt
+// car(zawierający marke, model, rokProdukcji) I wyświetlić dane o tym aucie w stringu, użyj do tego ``,
+
+// 2.  Utworzony w powyższej funkcji obiekt zdestrukturyzuj poza funkcja tak aby można było dostać się do poszczególnych jego wartości,
+// bezpośrednio, zamiast wpisując car.model tylko aby można to było zrobić za pomocą samego model
+
+// 3.  Do funkcji w zadaniu pierwszy dodaj destrukturyzację wewnątrz funkcji, na parametrze obiektu i wstaw do stringa odpowiednie
+// zmienne już zdestrukturyzowane,
+
+// 4.  Pokaż mi swój przykład i napisz czym się różni inkrementacja z ++ przed zmienna, a ++ po zmiennej czyli let x = 5, ++x OD x++ ?
+
+// 5.  Napisz funkcję o nazwie kosz, która będzie zawierała w sobie dwie funkcję, rzutZaDwaPkt i rzutZaTrzyPkt oraz stan czyli
+// w obiekcie aktualnyWynik, ktory będzie się zaczynał od 0, każda funkcja wewnątrz powinna dodawać odpowiednio 2 i 3 do naszego
+// stanu, zwróc z tej funkcji stan i obie funkcje aby móc ich użyć i zrób tak aby aktualnyWynik doszedł do wyniku 7,
+
+// 6.  Stwórz obiekt pralka, która zawiera nazwę, liczbę dostępnych funkcji oraz metodę wewnątrz o nazwę information która wyświetli
+// nam dane o pralce czyli jaki to model i ile ma funkcji dostępnych,
+
+// 7. Opisz w skrócie na czym polega różnica miedzy kopią, a referencja i stwórz swój własny przykład obrazujący tą różnice +
+// jakie konkretnie typy danych są typami prostymi a jakie złożonymi?

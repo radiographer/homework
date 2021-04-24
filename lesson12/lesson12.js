@@ -33,7 +33,7 @@
 // console.log(obliczCene(produkt));
 
 // let type;
-// if (objtype) {
+// if (obj.type) {
 //   type = obj.type;
 // } else {
 //   type = "książka";
@@ -66,3 +66,35 @@
 // console.log(obliczCene(produkt));
 
 //FUNKCJA w FUNKCJI
+
+// function licznik() {
+//   let ile = 0;
+
+//   function zwieksz() {
+//     ile = ile + 1;
+//   }
+
+//   function zmniejsz() {
+//     ile = ile - 1;
+//   }
+//   function sekretneDodanie() {
+//     ile = ile + 10;
+//   }
+
+//   function pokazLicznik() {
+//     console.log(ile);
+//   }
+//   sekretneDodanie();
+
+//   return {
+//     show: pokazLicznik,
+//     increase: zwieksz,
+//     decrease: zmniejsz,
+//   };
+// }
+
+// const counter = licznik();
+// counter.show();
+// counter.decrease();
+// counter.decrease();
+// counter.show();
