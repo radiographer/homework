@@ -146,7 +146,7 @@ object2.nazwaStringu = "references after copy and change ";
 
 console.log("object1", object1.nazwaStringu);
 console.log("object2", object2.nazwaStringu);
-//zmienia się kopia zmiennej ORAZ oryginał, gdyż obie zmienne odnoszą się do tego samego adresu(referencji),
+//zmienia się kopia zmiennej ORAZ oryginał, gdyż obie zmienne odnoszą się(są referencją) do tego samego adresu
 
 // TYPY PROSTE:
 // liczby 1234....
