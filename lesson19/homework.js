@@ -274,11 +274,11 @@ function Car(model, yearOfProduction, color) {
     this.drive = () => console.log(`drive`);
   }
 }
-Car.prototype.tankFuel = () => console.log(`zatankuj`);
+Car.prototype.tankFuel = (text) => console.log(text);
 
-Car.prototype.stop = () => console.log(`zatrzymaj się`);
+Car.prototype.stop = (text) => console.log(text);
 
 const car1 = new Car("Skoda", 2000, "red");
 
-car1.tankFuel();
-car1.stop();
+car1.tankFuel("zatankuj!");
+car1.stop("zatrzymaj sie!");
