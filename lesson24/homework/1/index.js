@@ -4,6 +4,10 @@
 // Zadania oddzielne:
 // 1.  Co oznacza, że kod może być asynchroniczny?
 
+
+cyt.: Asynchroniczny kod pozwala rozpocząć wykonanie pewnej operacji w danym momencie i obsłużenie jej rezultatu w przyszłości, a w 
+międzyczasie skrypt nadal będzie mógł być wykonywany.
+
 // 2.  Pobierz tablicę postaci z powyższego endpointa i wyświetl ją w consoli za pomocą Promise
 
 fetch("https://rickandmortyapi.com/api/character")
@@ -37,9 +41,9 @@ pobierzTablice();
 
 // 5.  Znajdź na stronie The Rick and Morty API jak pobrać pojedyńczą postać i pobierz jedną postać w dowolny sposób,
 
-// const pobierzImiona = async () => {
-//   const response = await fetch("https://rickandmortyapi.com/api/character/2");
-//   const data = await response.json();
-//   console.log(data);
-// };
-// pobierzImiona();
+const pobierzImiona = async () => {
+  const response = await fetch("https://rickandmortyapi.com/api/character/2");
+  const data = await response.json();
+  console.log(data);
+};
+pobierzImiona();
