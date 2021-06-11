@@ -2,21 +2,34 @@
 <html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <title>Rick and Morty</title>
+    <title>Rick and Morty - praca domowa 2</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Lista postaci Rick and Morty</h1>
-    <h3>Pełna lista zawiera <span id="liczba-postaci"></span> postaci.</h3>
-    <div id="nawigacja">
-      <h4>
-        Aktualna strona to <span id="aktualna-strona"></span> na
-        <span id="ilosc-stron"></span> stron.
-      </h4>
-      <button id="prev">Poprzednia</button>
-      <button id="next">Następna</button>
+    <div id="main">
+      <div id="title">Lista Rick and Morty</div>
+      <div id="info">
+        Wszystkich dostępnych postaci jest
+        <div id="char-numbers"></div>
+        .
+      </div>
+      <div id="nav">
+        <h4>
+          Aktualna strona to <span id="current-site"></span> na
+          <span id="sites-number"></span> stron.
+        </h4>
+        <button id="prev">Poprzednia</button>
+        <button id="next">Następna</button>
+      </div>
+      <div id="ex">
+        A jedną z nich jest:
+        <div id="char-ex"></div>
+        .
+      </div>
+      <div id="list-title"></div>
+      <div id="ten-char-list"></div>
     </div>
-    <div id="lista"></div>
-    <script src="index-pre-project.js"></script>
+
+    <script src="./index-project.js"></script>
   </body>
 </html>

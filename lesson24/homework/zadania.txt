@@ -35,7 +35,7 @@ e) Na stronie wyświetl imie przynajmniej jednej postaci z pobranej tablicy,
 f) Wyświetl w formie listy 10 pierwszych postaci tak aby wyświetlić imie postaci, zdjecie i typ postaci w formie
 opisu czyli musicie uzyć z obiektu postaci: name, image i type.
 g) Wyświetl pod opisem a nad listą dwa przyciski poprzednia i następna, które będą wyświetlały kolejne 10 postaci
-z tablicy lub poprzednie 10, (można to zrobić obcinając tablicę lub używając nowych endpointów z dokumentacji
-pod które mozna podstawiac zmienne i same pobiorą nam dowolną stronę - fetch(<https://rickandmortyapi.com/api/character/?page=1))>
+z tablicy lub poprzednie 10, (można to zrobić obcinając tablicę lub używając nowych endpointów z dokumentacji 
+pod które mozna podstawiac zmienne i same pobiorą nam dowolną stronę - fetch(<https://rickandmortyapi.com/api/character/?page=1))> WAŻNE! Jeśli endpoint zwraca więcej niz 10 postaci to mozecie wyswietlic ich wiecej!
 h) Wyświetl aktualnie na której stronie jesteśmy i ile jest maksymalnie stron w formie string nad przyciskami
-"Aktualna strona to X na X"
+"Aktualna strona to X na X

@@ -1,16 +1,19 @@
-let page = 1;
-let info = null;
+const stanAplikacji = {
+  page: 1,
+  info: null,
+  $listaPostaci: document.getElementById("lista"),
+};
 
 async function main() {
   $buttonPrev = document.getElementById("prev");
   $buttonNext = document.getElementById("next");
 
   $buttonPrev.addEventListener("click", async (el) => {
-    if (info.prev === null) {
+    if (stanAplikacji.info.prev === null) {
       alert("Jesteś na pierwszej stronie");
       return;
     }
-    page--;
+    stanAplikacji.page--;
 
     // page=page-1
     // page -=1
@@ -18,32 +21,30 @@ async function main() {
 
     const characters = await pobierzPostaci();
 
-    info = characters.info;
+    stanAplikacji.info = characters.info;
 
-    const $listaPostaci = document.getElementById("lista");
-    $listaPostaci.innerHTML = "";
+    stanAplikacji.$listaPostaci.innerHTML = "";
     characters.results.forEach(stworzKartePostaci);
   });
 
   $buttonNext.addEventListener("click", async (el) => {
-    if (info.next === null) {
+    if (stanAplikacji.info.next === null) {
       alert("Jesteś na ostatniej stronie");
       return;
     }
-    page++;
+    stanAplikacji.page++;
 
     const characters = await pobierzPostaci();
 
-    info = characters.info;
+    stanAplikacji.info = characters.info;
 
-    const $listaPostaci = document.getElementById("lista");
-    $listaPostaci.innerHTML = "";
+    stanAplikacji.$listaPostaci.innerHTML = "";
     characters.results.forEach(stworzKartePostaci);
   });
 
   async function pobierzPostaci() {
     const data = await fetch(
-      `https://rickandmortyapi.com/api/character?page=${page}`
+      `https://rickandmortyapi.com/api/character?page=${stanAplikacji.page}`
     );
     const response = await data.json();
     return response;
@@ -78,12 +79,13 @@ async function main() {
 
   const characters = await pobierzPostaci();
 
-  info = characters.info;
+  stanAplikacji.info = characters.info;
 
-  const $listaPostaci = document.getElementById("liczba-postaci");
-  $listaPostaci.innerHTML = characters.info.count;
-  console.log("characters", characters);
+  const $liczbaPostaci = document.getElementById("liczba-postaci");
+  $liczbaPostaci.innerHTML = characters.info.count;
 
   characters.results.forEach(stworzKartePostaci);
 }
 main();
+
+// 50 minuta
