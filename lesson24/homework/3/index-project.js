@@ -54,13 +54,11 @@ async function main() {
         `https://rickandmortyapi.com/api/character/?page=${numberPage}`
       );
       const data = await response.json();
-      console.log(data);
+
       return data.results;
     };
 
     const tenCharactersFromArray = await getArray();
-    const $listaPostaci = document.getElementById("char-numbers");
-    $listaPostaci.innerHTML = tenCharactersFromArray.length;
 
     const $charEx = document.getElementById("char-ex");
     $charEx.innerHTML = tenCharactersFromArray[0].name;
@@ -69,12 +67,18 @@ async function main() {
 
     function stworzElemnet(data) {
       const $container = document.createElement("div");
+      $container.style.borderWidth = "thin";
+      $container.style.borderStyle = "solid";
+      $container.style.padding = "10px";
+      $container.style.margin = "10px";
 
       const $li = document.createElement("li");
-      $li.innerHTML = data.name + data.type;
+      $li.innerHTML = data.name + " " + data.type;
       const $img = document.createElement("img");
       $img.src = data.image;
       $img.alt = data.name;
+      $img.style.height = "50px";
+      $img.style.width = "50px";
 
       $container.appendChild($img);
       $container.appendChild($li);
@@ -90,11 +94,47 @@ async function main() {
       numberPage++;
       const newData = await getArray();
       const $list = document.getElementById("list-title");
-      $list.innerHTML = "strona nr " + numberPage;
+
+      $list.innerHTML = "";
       newData.forEach(stworzElemnet);
+      const $current = document.getElementById("current-site");
+      $current.innerHTML = numberPage;
     });
+
+    $buttonPrev.addEventListener("click", async () => {
+      numberPage--;
+      const newData = await getArray();
+      const $list = document.getElementById("list-title");
+
+      $list.innerHTML = "";
+      newData.forEach(stworzElemnet);
+      const $current = document.getElementById("current-site");
+      $current.innerHTML = numberPage;
+    });
+
+    const getInfoArray = async () => {
+      const response = await fetch(
+        `https://rickandmortyapi.com/api/character/?page=${numberPage}`
+      );
+      const data = await response.json();
+      console.log("data", data);
+      return data.info;
+    };
+
+    const sites = await getInfoArray();
+
+    const $current = document.getElementById("current-site");
+    $current.innerHTML = numberPage;
+
+    const $sitesAll = document.getElementById("sites-number");
+    $sitesAll.innerHTML = sites.pages;
+
+    const allCharactersFromArray = await getInfoArray();
+    const $listaPostaci = document.getElementById("char-numbers");
+    $listaPostaci.innerHTML = allCharactersFromArray.count;
   }
 
   app();
 }
+
 main();
