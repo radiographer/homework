@@ -1,3 +1,6 @@
+body {
+  background-color: #c5cbe3;
+}
 #title {
   display: flex;
   align-items: center;
@@ -22,6 +25,7 @@
   border-width: 0.5px;
   border-radius: 5px;
   padding: 15px;
+  background-color: #efe2ba;
 }
 
 #list-title {

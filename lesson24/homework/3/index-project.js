@@ -38,6 +38,7 @@ async function main() {
       $container.style.borderStyle = "solid";
       $container.style.padding = "10px";
       $container.style.margin = "10px";
+      $container.style.backgroundColor = "#efe2ba";
 
       const $li = document.createElement("li");
       $li.innerHTML = data.name + " " + data.type;
