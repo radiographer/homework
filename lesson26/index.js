@@ -57,11 +57,13 @@ async function pobierzPostaci() {
     `https://rickandmortyapi.com/api/character${params}`
   );
   const response = await data.json();
+  console.log(response);
   return response;
 }
 const bazaDanych = {
   characters: [], // 600 postaci
 };
+
 function stworzKartePostaci(data) {
   const $card = document.createElement("div");
   $card.classList = "card";
