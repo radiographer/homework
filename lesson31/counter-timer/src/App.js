@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Counter from "./components/Counter";
+import Timer from "./components/Timer";
 
 function App() {
+  const [component, setComponent] = useState("timer");
+
+  const handleClick = () => {
+    setComponent(component === "timer" ? "counter" : "timer");
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Counter</h1>
+      {component === "counter" && <Counter defaultValue={150} step={2} />}
+      {component === "timer" && <Timer />}
+      <button onClick={handleClick}>
+        Show {component === "counter" ? "timer" : "counter"}
+      </button>
     </div>
   );
 }
